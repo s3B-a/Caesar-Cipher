@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"caesar-cipher/textAnalysis"
+	"fmt"
 )
 
 // Caesar Cipher Encryption that allows for the majority of ascii characters
@@ -73,6 +73,6 @@ func Abs(value int) int {
 }
 
 func main() {
-	fmt.Println(CaesarDecrypt("ygfayihtaunf8y3gr917g8fyha98ry3q"))
+	fmt.Println(CaesarDecrypt("67g8161zt42fsty32f2hu359"))
 	fmt.Println(CaesarEncrypt("FRUIT16324a", 898751))
 }
